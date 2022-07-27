@@ -1,0 +1,174 @@
+{
+  "questions": [{
+          "questionText": "What does HTML stand for?",
+          "options": [{
+                  "text": "Hyper Text Markup Language",
+                  "correct": true
+              },
+              {
+                  "text": "Home Tool Markup Language"
+              },
+              {
+                  "text": " Hyperlinks and Text Markup Language"
+              }
+          ],
+          "explanation": "[H]yper [T]ext [M]arkup [L]anguage"
+      },
+      {
+          "questionText": "Who is making the Web standards?",
+          "options": [{
+                  "text": "Mozilla"
+              },
+              {
+                  "text": "Google"
+              },
+              {
+                  "text": "Microsoft"
+              },
+              {
+                  "text": "The World Wide Web Consortium",
+                  "correct": true
+              }
+          ],
+          "explanation": "3WC is responsible for web standards."
+      },
+      {
+          "questionText": "Choose the correct HTML element for the largest heading:",
+          "options": [{
+                  "text": "<head>"
+              },
+              {
+                  "text": "<h1>",
+                  "correct": true
+              },
+              {
+                  "text": "<h6>"
+              },
+              {
+                  "text": "<heading>"
+              }
+          ],
+          "explanation": "Headings are made up with the tags <h1>..<h6>, from top to down size."
+      },
+      {
+          "questionText": "What is the correct HTML element for inserting a line break?",
+          "options": [{
+                  "text": "<lb>"
+              },
+              {
+                "text": "<break>"
+              },
+              {
+                  "text": "<br>",
+                  "correct": true
+              },
+              {
+                  "text": "<nl>"
+              }
+          ],
+          "explanation": "The <br> tag is used to insert a new line in HTML. Newlines/Cariage Returns in document are not considered in the rendering."
+      },
+      {
+          "questionText": "What is the correct HTML for adding a background color?",
+          "options": [{
+                  "text": "<body style=\"background-color:yellow;\">",
+                  "correct": true
+              },
+              {
+                  "text": "<background>yellow<\background>"
+              },
+              {
+                  "text": "<body bg=\"yellow;\">"
+              },
+              {
+                "text": "<body style='background-color:yellow'>"
+              }
+          ],
+          "explanation": "Background color is a style attribute and therefore it is solved in a style directive, it can enclosed with \" or ' and must be finished with a ;."
+      },
+      {
+          "questionText": "Choose the correct HTML element to define important text",
+          "options": [{
+                  "text": "<b>"
+              },
+              {
+                  "text": "<i>"
+              },
+              {
+                  "text": "<important>"
+              },
+              {
+                "text": "<strong>",
+                "correct": true
+              },
+              {
+                "text": "<highlighted>"
+              }
+          ],
+          "explanation": "The tags <b> and <strong> looks similar, but the last one is the tag to display an important part."
+      },
+      {
+          "questionText": "Choose the correct HTML element to define emphasized text",
+          "options": [{
+                  "text": "<i>"
+              },
+              {
+                  "text": "<em>",
+                  "correct": true
+              },
+              {
+                  "text": "<italic>"
+              },
+              {
+                  "text": "<emphasized>"
+              },
+              {
+                  "text": "<emphasize>"
+              }
+          ],
+          "explanation": "The tag <em> is used for emphasized parts."
+      },
+      {
+          "questionText": "What is the correct HTML for creating a hyperlink?",
+          "options": [{
+                  "text": "<a href=\"http://www.w3schools.com\">W3Schools</a>",
+                  "correct": true
+              },
+              {
+                  "text": "<a>http://www.w3schools.com</a>"
+              },
+              {
+                "text": "<a name=\"http://www.w3schools.com\">W3Schools.com</a>"
+              },
+              {
+                  "text": "<a url=\"http://www.w3schools.com\">W3Schools.com</a>"
+              }
+          ],
+          "explanation": "A hyperlink will be inserted with an anchor tag and the link should be placed in the attribut href, hyperlink reference."
+      },
+      {
+          "questionText": "Which character is used to indicate an end tag?",
+          "options": [{
+                  "text": "^"
+              },
+              {
+                  "text": "<"
+              },
+              {
+                  "text": "*"
+              },
+              {
+                  "text": "/",
+                  "correct": true
+              },
+              {
+                  "text": "#"
+              },
+              {
+                  "text": ">"
+              }
+          ],
+          "explanation": "An end tag use the tag name with the prefix / to show the end of a tag. Some tags are self closed and don't used an end tag."
+      }
+  ]
+}

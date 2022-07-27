@@ -14,7 +14,7 @@
     <h1>Good work!</h1>
     <div class="name col-md-4 my-3">
         <label for="">Your name:</label>
-        <input type="text" class="form-control">
+        <input #username type="text" class="form-control">
     </div>
-    <button class="btn btn-primary btn-lg" routerLink="/question">Start the test!</button>
+    <button class="btn btn-primary btn-lg" routerLink="/question" (click)="startTest()">Start the test!</button>
 </div>
